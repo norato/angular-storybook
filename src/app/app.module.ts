@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CustomDirectiveDirective } from './custom-directive.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomDirectiveDirective
   ],
   imports: [
     BrowserModule
